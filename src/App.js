@@ -17,9 +17,13 @@ class App extends Component {
             Car name = { 'Ford' }
             year = { 2018 }
             /> <
+            p style = {
+                { color: 'blue' } } > COLOR < /p> <
             Car name = { 'Audi' }
             year = { 2016 }
             /> <
+            p style = {
+                { color: 'red' } } > COLOR < /p> <
             Car name = "Mazda"
             year = { 2010 }
             /> <
