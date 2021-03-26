@@ -1,7 +1,10 @@
 import React from 'react';
 
-export default () => ( <
+export default (props) => ( <
     div >
-    This is car component <
+    <
+    h3 > Car name: { props.name } < /h3> <
+    p > YEAR: < strong > { props.year } < /strong></p >
+    <
     /div>
 )
