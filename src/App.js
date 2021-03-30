@@ -14,6 +14,10 @@ class App extends Component {
         pageTitle: 'React components'
     }
 
+    changeTitleHandler = () => {
+        console.log('Clicked');
+    }
+
     render() {
         const divStyle = {
             textAlign: 'center'
@@ -25,6 +29,10 @@ class App extends Component {
             div style = { divStyle } >
             <
             h1 > { this.state.pageTitle } < /h1>
+
+            <
+            button buttonClick = { this.changeTitleHandler }
+            id = "button" > Change title < /button>
 
             <
             Car name = { cars[0].name }
